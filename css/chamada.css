@@ -1,0 +1,48 @@
+*{
+    font-size: 18px;
+
+}
+:root{
+    --primary-color: #3bb4ff;
+    --clean-primary-color: #F1EF93;
+    --dark-primary-color: #574aeb;
+    --secondary-color: #4e0eff;
+    --clean-secondary-color: #F1F0BD;
+    --neutral-clean-color: #EEEEEE;
+    --neutral-dark-color: #282831;
+}
+body{
+    background-color: var(--secondary-color);
+}
+h1, h2{
+    text-align: center;
+}
+main{
+    background-color: var(--primary-color);
+    padding: 32px;
+    border-radius: 8px;
+}
+main > button{
+    background-color: var(--neutral-dark-color);
+    color: var(--neutral-clean-color);
+    padding: 0.5em;
+    font-weight: bolder;
+    border-radius: 8px;
+    float: left;
+}
+
+.btn-padrao{
+    background-color: var(--neutral-dark-color);
+    color: var(--neutral-clean-color);
+    padding: 0.5em;
+    font-weight: bolder;
+    border-radius: 8px;
+}
+
+.modal-content{
+    background-color: var(--clean-primary-color);
+}
+
+.modal-header{
+    background-color: var(--dark-primary-color);
+}
